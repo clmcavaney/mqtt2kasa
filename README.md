@@ -11,6 +11,8 @@ The TP-Link / Kasa devices managed are kept in an easy to edit YAML file that lo
 mqtt:
     # ip/dns for the mqtt broker
     host: 192.168.1.250
+    username: <mqtt username>
+    password: <mqtt password>
 globals:
     # every location will be managed using a unique mqtt topic
     # unless explicitly specified, this format will be used
